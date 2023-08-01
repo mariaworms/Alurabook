@@ -1,24 +1,23 @@
 @import url("styles/header.css");
 
+/* variavel root */
 :root {
-
-    --cor-de-fundo: #EBECEE;
-    --branco: #FFFFFF;
-    
+--cor-fundo:#EBECEE;
+--branco: #ffffff;
+--laranja: #eb9800;
+--azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+--azul: #002F52;
+--font-principal: "Poppins";
+--font-secondary: "Josefin Sans";
+--black: #000;
+--cinza: #464646;
+--cinza-claro: #858585;
 }
+
 
 body {
-    background-color: var(--cor-de-fundo);
-}
-
-
-h1 {
-    background-color: white;
-}
-
-.cabeçalho__menu-hamburguer {
-    width: 24px;
-    height: 24px;
-    background-image: url("../img/Menu.svg");
-    display: inline-block;
+    background-color: var(--cor-fundo);
+    font-family: var(--font-principal);
+    font-size: 1em;
+    font-weight: 400;
 }
