@@ -9,7 +9,7 @@
 }
 
 
-.cabeçalho {
+.cabecalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
@@ -17,7 +17,7 @@
     position: relative;
 }
 
-.lista_menu {
+.lista__menu {
     display: none;
     position: absolute;
     z-index: 2;
@@ -28,20 +28,20 @@
 
 
 
-.container_botao:checked ~ .lista_menu {
+.container__botao:checked ~ .lista__menu {
     display: block;
 }
 
-.lista-menu_titulo, .lista-menu_item {
+.lista-menu__titulo, .lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
 }
 
-.lista-menu_titulo {
+.lista-menu__titulo {
     color: var(--laranja);
     font-weight: 700;
 }
 
-.lista-menu_item {
+.lista-menu__item {
     text-transform: uppercase;
 }
