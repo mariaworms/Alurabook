@@ -1,4 +1,10 @@
-@import url("styles/header.css");
+
+@import url("./styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrosel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
 
 /* variavel root */
 :root {
@@ -21,3 +27,4 @@ body {
     font-size: 1em;
     font-weight: 400;
 }
+
